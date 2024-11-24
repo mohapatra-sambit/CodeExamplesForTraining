@@ -1,0 +1,4 @@
+MyStudent [rollNo=1, name=abcd, class=1, section=a, scores=[mathsScores=12.0, physicsScores=23.0, chemistryScores=34.0, englishScores=45.0]]
+```````MyStudent [rollNo=2, name=xyz, class=1, section=b, scores=[mathsScores=22.0, physicsScores=33.0, chemistryScores=44.0, englishScores=55.0]]
+```````MyStudent [rollNo=3, name=mnop, class=1, section=c, scores=[mathsScores=44.0, physicsScores=55.0, chemistryScores=66.0, englishScores=77.0]]
+```````
