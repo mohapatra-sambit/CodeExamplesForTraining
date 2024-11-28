@@ -1,6 +1,5 @@
 package training.collections;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -10,6 +9,8 @@ public class ListDemo {
 	
 //	private List<Book> library = new ArrayList<Book>();
 	private List<Book> library = new LinkedList<Book>();
+	
+//	private List<Integer> listOfNumber = new ArrayList<Integer>();
 	
 	public void addBookToLibrary(String name, String author, String subject) {
 		library.add(new Book(name, author, subject));
@@ -44,6 +45,10 @@ public class ListDemo {
 		for(int i=0; i<library.size(); i++) {
 			System.out.println(library.get(i));
 		}
+	}
+	
+	public boolean isBookAvailable(Book book) {
+		return library.contains(book);
 	}
 
 }
