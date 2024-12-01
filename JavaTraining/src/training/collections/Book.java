@@ -25,7 +25,7 @@ public class Book /* implements Comparable<Book> */ {
 
 	@Override
 	public String toString() {
-		return "Book [name=" + name + ", author=" + author + ", subject=" + subject + "]";
+		return "Book [name=" + name + ", author=" + author + ", subject=" + subject + "]\n";
 	}
 
 	@Override
