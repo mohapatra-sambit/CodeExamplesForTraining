@@ -1,5 +1,6 @@
 package training.collections;
 
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -49,6 +50,10 @@ public class ListDemo {
 	
 	public boolean isBookAvailable(Book book) {
 		return library.contains(book);
+	}
+	
+	public void arrangeAllBooks() {
+		Collections.sort(library);
 	}
 
 }

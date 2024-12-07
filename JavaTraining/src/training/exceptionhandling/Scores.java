@@ -1,6 +1,10 @@
 package training.exceptionhandling;
 
-public class Scores {
+import java.io.Serializable;
+
+public class Scores implements Serializable {
+
+	private static final long serialVersionUID = 5463457550784355585L;
 
 	private double mathsScores;
 

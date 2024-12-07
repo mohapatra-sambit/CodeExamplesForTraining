@@ -1,6 +1,6 @@
 package training.collections;
 
-public class Book /* implements Comparable<Book> */ {
+public class Book implements Comparable<Book> {
 
 	private String name, author, subject;
 
@@ -37,17 +37,21 @@ public class Book /* implements Comparable<Book> */ {
 		}
 		return false;
 	}
-	
-	
 
-//	@Override
-//	public int compareTo(Book book) {
-//		if (this.author.equalsIgnoreCase(book.getAuthor()) && this.name.equalsIgnoreCase(book.getName())
-//				&& this.subject.equalsIgnoreCase(book.getSubject())) {
-//			return 0;
-//		} else {
-//			return this.author.compareTo(book.getAuthor());
-//		}
-//	}
+	@Override
+	public int hashCode() {
+		return this.name.hashCode();
+	}
+
+	@Override
+	public int compareTo(Book book) {
+//		System.out.println("Calling CompareTo...");
+		if (this.equals(book)) {
+			return 0;
+		} else {
+//			System.out.println(this.name.compareTo(book.name));
+			return this.name.compareTo(book.name);
+		}
+	}
 
 }

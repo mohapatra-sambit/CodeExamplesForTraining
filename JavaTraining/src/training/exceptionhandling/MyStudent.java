@@ -1,6 +1,10 @@
 package training.exceptionhandling;
 
-public class MyStudent {
+import java.io.Serializable;
+
+public class MyStudent implements Serializable {
+
+	private static final long serialVersionUID = -8302380778953759460L;
 
 	private int rollNo;
 

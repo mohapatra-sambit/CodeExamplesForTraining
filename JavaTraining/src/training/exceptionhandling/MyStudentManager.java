@@ -21,4 +21,9 @@ public class MyStudentManager {
 		SaveStudentToFile saveStudentToFile = new SaveStudentToFile();
 		saveStudentToFile.saveToFile(convertedString);
 	}
+	
+	public void saveStudent(MyStudent myStudent) throws MyCustomException {
+		SaveStudentToFile saveStudentToFile = new SaveStudentToFile();
+		saveStudentToFile.saveToFile(myStudent);
+	}
 }
