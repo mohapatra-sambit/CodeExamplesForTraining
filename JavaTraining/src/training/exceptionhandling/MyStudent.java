@@ -2,7 +2,7 @@ package training.exceptionhandling;
 
 import java.io.Serializable;
 
-public class MyStudent implements Serializable {
+public class MyStudent implements Serializable { //marker interfaces
 
 	private static final long serialVersionUID = -8302380778953759460L;
 
