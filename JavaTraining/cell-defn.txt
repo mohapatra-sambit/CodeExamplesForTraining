@@ -1,0 +1,7 @@
+Start
+Place, Brown, Mediterranean Avenue, 60, 2
+Place, Brown, Baltic Avenue, 60, 3
+Tax, Income Tax, 200
+Railway, Reading RailRoad, 200, 10
+Place, Blue, Oriental Avenue, 100, 20
+Place, Blue, Vermont Avenue, 100, 25
